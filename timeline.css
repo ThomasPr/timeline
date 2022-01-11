@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+}
+
+.scrollable {
+  overflow-x: hidden;
+  width: 100%;
+  cursor: grab;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 104px;
+  background-color: #f2f3f3;
+}
+
+.event {
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  background-color: rgb(0, 127, 255);
+}
+
+.spacer {
+  height: 6px;
+  background-color: rgba(0, 127, 255, 0.5);
+}
